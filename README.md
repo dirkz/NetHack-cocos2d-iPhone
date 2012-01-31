@@ -5,9 +5,9 @@ Cocos2d port of NetHack for iPhone
 
 Forked from:
 
-* [NetHack](https://github.com/Vanilla-NetHack/NetHack)
-* [NetHack](https://github.com/dirkz/NetHack)
-* [NetHack iOS](https://github.com/dirkz/NetHack-iOS)
+* [Vanilla-NetHack/NetHack](https://github.com/Vanilla-NetHack/NetHack)
+* [dirkz/NetHack](https://github.com/dirkz/NetHack)
+* [dirkz/NetHack iOS](https://github.com/dirkz/NetHack-iOS)
 
 See also the README in the top folder of this distribution for information about
 Vanilla NetHack.

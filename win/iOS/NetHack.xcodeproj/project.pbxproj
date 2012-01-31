@@ -1483,6 +1483,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Dirk Zimmermann";
 			};
 			buildConfigurationList = 43CD22D514D7F254000D42A6 /* Build configuration list for PBXProject "NetHack" */;
 			compatibilityVersion = "Xcode 3.2";

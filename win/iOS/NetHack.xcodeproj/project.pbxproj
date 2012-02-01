@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43AA34D314D98EB000670E46 /* MessageFont-hd.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 43AA34CE14D98EB000670E46 /* MessageFont-hd.fnt */; };
+		43AA34D414D98EB000670E46 /* MessageFont-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AA34CF14D98EB000670E46 /* MessageFont-hd.png */; };
+		43AA34D614D98EB000670E46 /* MessageFont.fnt in Resources */ = {isa = PBXBuildFile; fileRef = 43AA34D114D98EB000670E46 /* MessageFont.fnt */; };
+		43AA34D714D98EB000670E46 /* MessageFont.png in Resources */ = {isa = PBXBuildFile; fileRef = 43AA34D214D98EB000670E46 /* MessageFont.png */; };
 		43CD22E014D7F254000D42A6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD22DF14D7F254000D42A6 /* QuartzCore.framework */; };
 		43CD22E214D7F254000D42A6 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD22E114D7F254000D42A6 /* OpenGLES.framework */; };
 		43CD22E414D7F254000D42A6 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD22E314D7F254000D42A6 /* OpenAL.framework */; };
@@ -253,6 +257,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43AA34CE14D98EB000670E46 /* MessageFont-hd.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "MessageFont-hd.fnt"; sourceTree = "<group>"; };
+		43AA34CF14D98EB000670E46 /* MessageFont-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MessageFont-hd.png"; sourceTree = "<group>"; };
+		43AA34D114D98EB000670E46 /* MessageFont.fnt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MessageFont.fnt; sourceTree = "<group>"; };
+		43AA34D214D98EB000670E46 /* MessageFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MessageFont.png; sourceTree = "<group>"; };
 		43CD22DB14D7F254000D42A6 /* NetHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CD22DF14D7F254000D42A6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		43CD22E114D7F254000D42A6 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -755,6 +763,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43AA34CD14D98EB000670E46 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				43AA34CE14D98EB000670E46 /* MessageFont-hd.fnt */,
+				43AA34CF14D98EB000670E46 /* MessageFont-hd.png */,
+				43AA34D114D98EB000670E46 /* MessageFont.fnt */,
+				43AA34D214D98EB000670E46 /* MessageFont.png */,
+			);
+			name = Fonts;
+			path = Resources/Fonts;
+			sourceTree = "<group>";
+		};
 		43CD22D014D7F254000D42A6 = {
 			isa = PBXGroup;
 			children = (
@@ -814,6 +834,7 @@
 		43CD22F014D7F254000D42A6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				43AA34CD14D98EB000670E46 /* Fonts */,
 				43CD22F114D7F254000D42A6 /* Default.png */,
 				43CD22F314D7F254000D42A6 /* fps_images.png */,
 				43CD22F514D7F254000D42A6 /* Icon-72.png */,
@@ -1505,6 +1526,10 @@
 				43CD22FE14D7F254000D42A6 /* Icon.png in Resources */,
 				43CD230014D7F254000D42A6 /* Icon@2x.png in Resources */,
 				43CD230314D7F254000D42A6 /* iTunesArtwork in Resources */,
+				43AA34D314D98EB000670E46 /* MessageFont-hd.fnt in Resources */,
+				43AA34D414D98EB000670E46 /* MessageFont-hd.png in Resources */,
+				43AA34D614D98EB000670E46 /* MessageFont.fnt in Resources */,
+				43AA34D714D98EB000670E46 /* MessageFont.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

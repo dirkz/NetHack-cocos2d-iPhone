@@ -21,6 +21,7 @@ extern int unix_main(int argc, char **argv);
     
     NSThread *netHackThread;
     RoguelikeTextView *dummyTextView;
+    NSString *messageFontFileName;
     
 }
 
@@ -58,9 +59,10 @@ extern int unix_main(int argc, char **argv);
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super" return value
 	if( (self=[super init])) {
+        messageFontFileName = @"MessageFont.fnt";
 		
 		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"MainLayer" fontName:@"Marker Felt" fontSize:64];
+		CCLabelBMFont *label = [CCLabelBMFont labelWithString:@"MainGameLayer" fntFile:messageFontFileName];
         
 		// ask director the the window size
 		CGSize size = [[CCDirector sharedDirector] winSize];
@@ -70,7 +72,7 @@ extern int unix_main(int argc, char **argv);
 		
 		// add the label as a child to this Layer
 		[self addChild: label];
-
+        
         dummyTextView = [[RoguelikeTextView alloc] initWithFrame:CGRectZero];
         [[[CCDirector sharedDirector] openGLView] addSubview:dummyTextView];
         dummyTextView.delegate = self;

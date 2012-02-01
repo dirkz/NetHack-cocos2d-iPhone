@@ -10,8 +10,9 @@
 
 #import "AppDelegate.h"
 #import "GameConfig.h"
-#import "HelloWorldLayer.h"
+#import "MainGameLayer.h"
 #import "RootViewController.h"
+#import "GlobalConfig.h"
 
 @implementation AppDelegate
 
@@ -40,6 +41,8 @@
 }
 - (void) applicationDidFinishLaunching:(UIApplication*)application
 {
+    [GlobalConfig setSharedInstance:[[GlobalConfig alloc] init]];
+
 	// Init the window
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
@@ -110,7 +113,7 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+	[[CCDirector sharedDirector] runWithScene: [MainGameLayer scene]];
 }
 
 
@@ -153,6 +156,7 @@
 - (void)dealloc {
 	[[CCDirector sharedDirector] end];
 	[window release];
+    [[GlobalConfig sharedInstance] release];
 	[super dealloc];
 }
 

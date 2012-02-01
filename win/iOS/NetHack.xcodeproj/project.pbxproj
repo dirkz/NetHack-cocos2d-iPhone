@@ -139,7 +139,6 @@
 		43CD24D014D7F5CD000D42A6 /* winios.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD24C114D7F5CC000D42A6 /* winios.m */; };
 		43CD26A414D7F5F3000D42A6 /* allmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD253714D7F5F2000D42A6 /* allmain.c */; };
 		43CD26A514D7F5F3000D42A6 /* alloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD253814D7F5F2000D42A6 /* alloc.c */; };
-		43CD26A614D7F5F3000D42A6 /* alloc.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD253914D7F5F2000D42A6 /* alloc.o */; };
 		43CD26A714D7F5F3000D42A6 /* apply.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD253A14D7F5F2000D42A6 /* apply.c */; };
 		43CD26A814D7F5F3000D42A6 /* artifact.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD253B14D7F5F2000D42A6 /* artifact.c */; };
 		43CD26A914D7F5F3000D42A6 /* attrib.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD253C14D7F5F2000D42A6 /* attrib.c */; };
@@ -147,10 +146,8 @@
 		43CD26AB14D7F5F3000D42A6 /* bones.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD253E14D7F5F2000D42A6 /* bones.c */; };
 		43CD26AC14D7F5F3000D42A6 /* botl.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD253F14D7F5F2000D42A6 /* botl.c */; };
 		43CD26AD14D7F5F3000D42A6 /* cmd.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254014D7F5F2000D42A6 /* cmd.c */; };
-		43CD26AE14D7F5F3000D42A6 /* config.h-t in Resources */ = {isa = PBXBuildFile; fileRef = 43CD254114D7F5F2000D42A6 /* config.h-t */; };
 		43CD26AF14D7F5F3000D42A6 /* dbridge.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254214D7F5F2000D42A6 /* dbridge.c */; };
 		43CD26B014D7F5F3000D42A6 /* decl.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254314D7F5F2000D42A6 /* decl.c */; };
-		43CD26B114D7F5F3000D42A6 /* decl.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD254414D7F5F2000D42A6 /* decl.o */; };
 		43CD26B214D7F5F3000D42A6 /* detect.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254514D7F5F2000D42A6 /* detect.c */; };
 		43CD26B314D7F5F3000D42A6 /* dig.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254614D7F5F2000D42A6 /* dig.c */; };
 		43CD26B414D7F5F3000D42A6 /* display.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254714D7F5F2000D42A6 /* display.c */; };
@@ -163,7 +160,6 @@
 		43CD26BB14D7F5F3000D42A6 /* dokick.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254E14D7F5F2000D42A6 /* dokick.c */; };
 		43CD26BC14D7F5F3000D42A6 /* dothrow.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD254F14D7F5F2000D42A6 /* dothrow.c */; };
 		43CD26BD14D7F5F3000D42A6 /* drawing.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255014D7F5F2000D42A6 /* drawing.c */; };
-		43CD26BE14D7F5F3000D42A6 /* drawing.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD255114D7F5F2000D42A6 /* drawing.o */; };
 		43CD26BF14D7F5F3000D42A6 /* dungeon.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255214D7F5F2000D42A6 /* dungeon.c */; };
 		43CD26C014D7F5F3000D42A6 /* eat.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255314D7F5F2000D42A6 /* eat.c */; };
 		43CD26C114D7F5F3000D42A6 /* end.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255414D7F5F2000D42A6 /* end.c */; };
@@ -174,13 +170,11 @@
 		43CD26C614D7F5F3000D42A6 /* files.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255914D7F5F2000D42A6 /* files.c */; };
 		43CD26C714D7F5F3000D42A6 /* fountain.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255A14D7F5F2000D42A6 /* fountain.c */; };
 		43CD26C814D7F5F3000D42A6 /* hack.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255B14D7F5F2000D42A6 /* hack.c */; };
-		43CD26C914D7F5F3000D42A6 /* hack.h-t in Resources */ = {isa = PBXBuildFile; fileRef = 43CD255C14D7F5F2000D42A6 /* hack.h-t */; };
 		43CD26CA14D7F5F3000D42A6 /* hacklib.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255D14D7F5F2000D42A6 /* hacklib.c */; };
 		43CD26CB14D7F5F3000D42A6 /* invent.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255E14D7F5F2000D42A6 /* invent.c */; };
 		43CD26CC14D7F5F3000D42A6 /* light.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD255F14D7F5F2000D42A6 /* light.c */; };
 		43CD26CD14D7F5F3000D42A6 /* lock.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD256014D7F5F2000D42A6 /* lock.c */; };
 		43CD26CE14D7F5F3000D42A6 /* mail.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD256114D7F5F2000D42A6 /* mail.c */; };
-		43CD26CF14D7F5F3000D42A6 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 43CD256214D7F5F2000D42A6 /* Makefile */; };
 		43CD26D014D7F5F3000D42A6 /* makemon.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD256314D7F5F2000D42A6 /* makemon.c */; };
 		43CD26D114D7F5F3000D42A6 /* mapglyph.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD256414D7F5F2000D42A6 /* mapglyph.c */; };
 		43CD26D214D7F5F3000D42A6 /* mcastu.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD256514D7F5F2000D42A6 /* mcastu.c */; };
@@ -196,7 +190,6 @@
 		43CD26DC14D7F5F3000D42A6 /* mondata.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD256F14D7F5F2000D42A6 /* mondata.c */; };
 		43CD26DD14D7F5F3000D42A6 /* monmove.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257014D7F5F2000D42A6 /* monmove.c */; };
 		43CD26DE14D7F5F3000D42A6 /* monst.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257114D7F5F2000D42A6 /* monst.c */; };
-		43CD26DF14D7F5F3000D42A6 /* monst.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD257214D7F5F2000D42A6 /* monst.o */; };
 		43CD26E014D7F5F3000D42A6 /* monstr.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257314D7F5F2000D42A6 /* monstr.c */; };
 		43CD26E114D7F5F3000D42A6 /* mplayer.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257414D7F5F2000D42A6 /* mplayer.c */; };
 		43CD26E214D7F5F3000D42A6 /* mthrowu.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257514D7F5F2000D42A6 /* mthrowu.c */; };
@@ -204,7 +197,6 @@
 		43CD26E414D7F5F3000D42A6 /* music.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257714D7F5F2000D42A6 /* music.c */; };
 		43CD26E514D7F5F3000D42A6 /* o_init.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257814D7F5F2000D42A6 /* o_init.c */; };
 		43CD26E614D7F5F3000D42A6 /* objects.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257914D7F5F2000D42A6 /* objects.c */; };
-		43CD26E714D7F5F3000D42A6 /* objects.o in Frameworks */ = {isa = PBXBuildFile; fileRef = 43CD257A14D7F5F2000D42A6 /* objects.o */; };
 		43CD26E814D7F5F3000D42A6 /* objnam.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257B14D7F5F2000D42A6 /* objnam.c */; };
 		43CD26E914D7F5F3000D42A6 /* options.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257C14D7F5F2000D42A6 /* options.c */; };
 		43CD26EA14D7F5F3000D42A6 /* pager.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD257D14D7F5F2000D42A6 /* pager.c */; };
@@ -256,6 +248,8 @@
 		43CD271814D7F5F3000D42A6 /* zap.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD25AB14D7F5F3000D42A6 /* zap.c */; };
 		43CD27A114D7F5F3000D42A6 /* unixmain.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD264714D7F5F3000D42A6 /* unixmain.c */; };
 		43CD27A314D7F5F3000D42A6 /* unixunix.c in Sources */ = {isa = PBXBuildFile; fileRef = 43CD264914D7F5F3000D42A6 /* unixunix.c */; };
+		43CD280814D94877000D42A6 /* MainGameLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD280714D94877000D42A6 /* MainGameLayer.m */; };
+		43CD280F14D94A7D000D42A6 /* RoguelikeTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 43CD280E14D94A7D000D42A6 /* RoguelikeTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -627,7 +621,6 @@
 		43CD253514D7F5F2000D42A6 /* youprop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = youprop.h; sourceTree = "<group>"; };
 		43CD253714D7F5F2000D42A6 /* allmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = allmain.c; sourceTree = "<group>"; };
 		43CD253814D7F5F2000D42A6 /* alloc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = alloc.c; sourceTree = "<group>"; };
-		43CD253914D7F5F2000D42A6 /* alloc.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = alloc.o; sourceTree = "<group>"; };
 		43CD253A14D7F5F2000D42A6 /* apply.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = apply.c; sourceTree = "<group>"; };
 		43CD253B14D7F5F2000D42A6 /* artifact.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = artifact.c; sourceTree = "<group>"; };
 		43CD253C14D7F5F2000D42A6 /* attrib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = attrib.c; sourceTree = "<group>"; };
@@ -635,10 +628,8 @@
 		43CD253E14D7F5F2000D42A6 /* bones.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bones.c; sourceTree = "<group>"; };
 		43CD253F14D7F5F2000D42A6 /* botl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = botl.c; sourceTree = "<group>"; };
 		43CD254014D7F5F2000D42A6 /* cmd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cmd.c; sourceTree = "<group>"; };
-		43CD254114D7F5F2000D42A6 /* config.h-t */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "config.h-t"; sourceTree = "<group>"; };
 		43CD254214D7F5F2000D42A6 /* dbridge.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dbridge.c; sourceTree = "<group>"; };
 		43CD254314D7F5F2000D42A6 /* decl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = decl.c; sourceTree = "<group>"; };
-		43CD254414D7F5F2000D42A6 /* decl.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = decl.o; sourceTree = "<group>"; };
 		43CD254514D7F5F2000D42A6 /* detect.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = detect.c; sourceTree = "<group>"; };
 		43CD254614D7F5F2000D42A6 /* dig.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dig.c; sourceTree = "<group>"; };
 		43CD254714D7F5F2000D42A6 /* display.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = display.c; sourceTree = "<group>"; };
@@ -651,7 +642,6 @@
 		43CD254E14D7F5F2000D42A6 /* dokick.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dokick.c; sourceTree = "<group>"; };
 		43CD254F14D7F5F2000D42A6 /* dothrow.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dothrow.c; sourceTree = "<group>"; };
 		43CD255014D7F5F2000D42A6 /* drawing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drawing.c; sourceTree = "<group>"; };
-		43CD255114D7F5F2000D42A6 /* drawing.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = drawing.o; sourceTree = "<group>"; };
 		43CD255214D7F5F2000D42A6 /* dungeon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dungeon.c; sourceTree = "<group>"; };
 		43CD255314D7F5F2000D42A6 /* eat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eat.c; sourceTree = "<group>"; };
 		43CD255414D7F5F2000D42A6 /* end.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = end.c; sourceTree = "<group>"; };
@@ -662,13 +652,11 @@
 		43CD255914D7F5F2000D42A6 /* files.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = files.c; sourceTree = "<group>"; };
 		43CD255A14D7F5F2000D42A6 /* fountain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fountain.c; sourceTree = "<group>"; };
 		43CD255B14D7F5F2000D42A6 /* hack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hack.c; sourceTree = "<group>"; };
-		43CD255C14D7F5F2000D42A6 /* hack.h-t */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "hack.h-t"; sourceTree = "<group>"; };
 		43CD255D14D7F5F2000D42A6 /* hacklib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hacklib.c; sourceTree = "<group>"; };
 		43CD255E14D7F5F2000D42A6 /* invent.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = invent.c; sourceTree = "<group>"; };
 		43CD255F14D7F5F2000D42A6 /* light.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = light.c; sourceTree = "<group>"; };
 		43CD256014D7F5F2000D42A6 /* lock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = lock.c; sourceTree = "<group>"; };
 		43CD256114D7F5F2000D42A6 /* mail.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mail.c; sourceTree = "<group>"; };
-		43CD256214D7F5F2000D42A6 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		43CD256314D7F5F2000D42A6 /* makemon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = makemon.c; sourceTree = "<group>"; };
 		43CD256414D7F5F2000D42A6 /* mapglyph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mapglyph.c; sourceTree = "<group>"; };
 		43CD256514D7F5F2000D42A6 /* mcastu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mcastu.c; sourceTree = "<group>"; };
@@ -684,7 +672,6 @@
 		43CD256F14D7F5F2000D42A6 /* mondata.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mondata.c; sourceTree = "<group>"; };
 		43CD257014D7F5F2000D42A6 /* monmove.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = monmove.c; sourceTree = "<group>"; };
 		43CD257114D7F5F2000D42A6 /* monst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = monst.c; sourceTree = "<group>"; };
-		43CD257214D7F5F2000D42A6 /* monst.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = monst.o; sourceTree = "<group>"; };
 		43CD257314D7F5F2000D42A6 /* monstr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = monstr.c; sourceTree = "<group>"; };
 		43CD257414D7F5F2000D42A6 /* mplayer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mplayer.c; sourceTree = "<group>"; };
 		43CD257514D7F5F2000D42A6 /* mthrowu.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mthrowu.c; sourceTree = "<group>"; };
@@ -692,7 +679,6 @@
 		43CD257714D7F5F2000D42A6 /* music.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = music.c; sourceTree = "<group>"; };
 		43CD257814D7F5F2000D42A6 /* o_init.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = o_init.c; sourceTree = "<group>"; };
 		43CD257914D7F5F2000D42A6 /* objects.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = objects.c; sourceTree = "<group>"; };
-		43CD257A14D7F5F2000D42A6 /* objects.o */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; path = objects.o; sourceTree = "<group>"; };
 		43CD257B14D7F5F2000D42A6 /* objnam.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = objnam.c; sourceTree = "<group>"; };
 		43CD257C14D7F5F2000D42A6 /* options.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = options.c; sourceTree = "<group>"; };
 		43CD257D14D7F5F2000D42A6 /* pager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pager.c; sourceTree = "<group>"; };
@@ -744,6 +730,10 @@
 		43CD25AB14D7F5F3000D42A6 /* zap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zap.c; sourceTree = "<group>"; };
 		43CD264714D7F5F3000D42A6 /* unixmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unixmain.c; sourceTree = "<group>"; };
 		43CD264914D7F5F3000D42A6 /* unixunix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unixunix.c; sourceTree = "<group>"; };
+		43CD280614D94877000D42A6 /* MainGameLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainGameLayer.h; sourceTree = "<group>"; };
+		43CD280714D94877000D42A6 /* MainGameLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainGameLayer.m; sourceTree = "<group>"; };
+		43CD280D14D94A7D000D42A6 /* RoguelikeTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoguelikeTextView.h; sourceTree = "<group>"; };
+		43CD280E14D94A7D000D42A6 /* RoguelikeTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoguelikeTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -759,11 +749,6 @@
 				43CD22EA14D7F254000D42A6 /* UIKit.framework in Frameworks */,
 				43CD22EC14D7F254000D42A6 /* Foundation.framework in Frameworks */,
 				43CD22EE14D7F254000D42A6 /* CoreGraphics.framework in Frameworks */,
-				43CD26A614D7F5F3000D42A6 /* alloc.o in Frameworks */,
-				43CD26B114D7F5F3000D42A6 /* decl.o in Frameworks */,
-				43CD26BE14D7F5F3000D42A6 /* drawing.o in Frameworks */,
-				43CD26DF14D7F5F3000D42A6 /* monst.o in Frameworks */,
-				43CD26E714D7F5F3000D42A6 /* objects.o in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,6 +796,7 @@
 				43CD249F14D7F5CC000D42A6 /* DLog */,
 				43CD24A114D7F5CC000D42A6 /* Util */,
 				43CD24A614D7F5CC000D42A6 /* Windows */,
+				43CD280514D9486E000D42A6 /* Nodes */,
 				43CD244114D7F256000D42A6 /* AppDelegate.h */,
 				43CD244214D7F256000D42A6 /* AppDelegate.m */,
 				43CD244414D7F256000D42A6 /* RootViewController.h */,
@@ -1168,6 +1154,8 @@
 				43CD24A314D7F5CC000D42A6 /* CGPointMath.m */,
 				43CD24A414D7F5CC000D42A6 /* GlobalConfig.h */,
 				43CD24A514D7F5CC000D42A6 /* GlobalConfig.m */,
+				43CD280D14D94A7D000D42A6 /* RoguelikeTextView.h */,
+				43CD280E14D94A7D000D42A6 /* RoguelikeTextView.m */,
 			);
 			path = Util;
 			sourceTree = SOURCE_ROOT;
@@ -1318,7 +1306,6 @@
 			children = (
 				43CD253714D7F5F2000D42A6 /* allmain.c */,
 				43CD253814D7F5F2000D42A6 /* alloc.c */,
-				43CD253914D7F5F2000D42A6 /* alloc.o */,
 				43CD253A14D7F5F2000D42A6 /* apply.c */,
 				43CD253B14D7F5F2000D42A6 /* artifact.c */,
 				43CD253C14D7F5F2000D42A6 /* attrib.c */,
@@ -1326,10 +1313,8 @@
 				43CD253E14D7F5F2000D42A6 /* bones.c */,
 				43CD253F14D7F5F2000D42A6 /* botl.c */,
 				43CD254014D7F5F2000D42A6 /* cmd.c */,
-				43CD254114D7F5F2000D42A6 /* config.h-t */,
 				43CD254214D7F5F2000D42A6 /* dbridge.c */,
 				43CD254314D7F5F2000D42A6 /* decl.c */,
-				43CD254414D7F5F2000D42A6 /* decl.o */,
 				43CD254514D7F5F2000D42A6 /* detect.c */,
 				43CD254614D7F5F2000D42A6 /* dig.c */,
 				43CD254714D7F5F2000D42A6 /* display.c */,
@@ -1342,7 +1327,6 @@
 				43CD254E14D7F5F2000D42A6 /* dokick.c */,
 				43CD254F14D7F5F2000D42A6 /* dothrow.c */,
 				43CD255014D7F5F2000D42A6 /* drawing.c */,
-				43CD255114D7F5F2000D42A6 /* drawing.o */,
 				43CD255214D7F5F2000D42A6 /* dungeon.c */,
 				43CD255314D7F5F2000D42A6 /* eat.c */,
 				43CD255414D7F5F2000D42A6 /* end.c */,
@@ -1353,13 +1337,11 @@
 				43CD255914D7F5F2000D42A6 /* files.c */,
 				43CD255A14D7F5F2000D42A6 /* fountain.c */,
 				43CD255B14D7F5F2000D42A6 /* hack.c */,
-				43CD255C14D7F5F2000D42A6 /* hack.h-t */,
 				43CD255D14D7F5F2000D42A6 /* hacklib.c */,
 				43CD255E14D7F5F2000D42A6 /* invent.c */,
 				43CD255F14D7F5F2000D42A6 /* light.c */,
 				43CD256014D7F5F2000D42A6 /* lock.c */,
 				43CD256114D7F5F2000D42A6 /* mail.c */,
-				43CD256214D7F5F2000D42A6 /* Makefile */,
 				43CD256314D7F5F2000D42A6 /* makemon.c */,
 				43CD256414D7F5F2000D42A6 /* mapglyph.c */,
 				43CD256514D7F5F2000D42A6 /* mcastu.c */,
@@ -1375,7 +1357,6 @@
 				43CD256F14D7F5F2000D42A6 /* mondata.c */,
 				43CD257014D7F5F2000D42A6 /* monmove.c */,
 				43CD257114D7F5F2000D42A6 /* monst.c */,
-				43CD257214D7F5F2000D42A6 /* monst.o */,
 				43CD257314D7F5F2000D42A6 /* monstr.c */,
 				43CD257414D7F5F2000D42A6 /* mplayer.c */,
 				43CD257514D7F5F2000D42A6 /* mthrowu.c */,
@@ -1383,7 +1364,6 @@
 				43CD257714D7F5F2000D42A6 /* music.c */,
 				43CD257814D7F5F2000D42A6 /* o_init.c */,
 				43CD257914D7F5F2000D42A6 /* objects.c */,
-				43CD257A14D7F5F2000D42A6 /* objects.o */,
 				43CD257B14D7F5F2000D42A6 /* objnam.c */,
 				43CD257C14D7F5F2000D42A6 /* options.c */,
 				43CD257D14D7F5F2000D42A6 /* pager.c */,
@@ -1456,6 +1436,15 @@
 			path = unix;
 			sourceTree = "<group>";
 		};
+		43CD280514D9486E000D42A6 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				43CD280614D94877000D42A6 /* MainGameLayer.h */,
+				43CD280714D94877000D42A6 /* MainGameLayer.m */,
+			);
+			path = Nodes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1516,8 +1505,6 @@
 				43CD22FE14D7F254000D42A6 /* Icon.png in Resources */,
 				43CD230014D7F254000D42A6 /* Icon@2x.png in Resources */,
 				43CD230314D7F254000D42A6 /* iTunesArtwork in Resources */,
-				43CD26AE14D7F5F3000D42A6 /* config.h-t in Resources */,
-				43CD26C914D7F5F3000D42A6 /* hack.h-t in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1679,7 +1666,6 @@
 				43CD26CC14D7F5F3000D42A6 /* light.c in Sources */,
 				43CD26CD14D7F5F3000D42A6 /* lock.c in Sources */,
 				43CD26CE14D7F5F3000D42A6 /* mail.c in Sources */,
-				43CD26CF14D7F5F3000D42A6 /* Makefile in Sources */,
 				43CD26D014D7F5F3000D42A6 /* makemon.c in Sources */,
 				43CD26D114D7F5F3000D42A6 /* mapglyph.c in Sources */,
 				43CD26D214D7F5F3000D42A6 /* mcastu.c in Sources */,
@@ -1753,6 +1739,8 @@
 				43CD271814D7F5F3000D42A6 /* zap.c in Sources */,
 				43CD27A114D7F5F3000D42A6 /* unixmain.c in Sources */,
 				43CD27A314D7F5F3000D42A6 /* unixunix.c in Sources */,
+				43CD280814D94877000D42A6 /* MainGameLayer.m in Sources */,
+				43CD280F14D94A7D000D42A6 /* RoguelikeTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
